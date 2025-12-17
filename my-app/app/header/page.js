@@ -11,13 +11,9 @@ import About from "../about/page";
 import Skills from "../skills/page";
 import Projects from "../projects/page";
 import Contact from "../contact/page";
-// import Skills from "@/app/skills/page";
-// import About from "@/app/about/page";
-// import Projects from "@/app/projects/page";
-// import Contact from "@/app/contact/page";
 
 
-export default function Home() {
+export default function Header() {
   useEffect(() => {
     const typed = new Typed("#text-typed", {
       strings: ["Web Designer .", "Frontend Developer."],
